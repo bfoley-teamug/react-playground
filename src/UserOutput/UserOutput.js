@@ -1,8 +1,9 @@
 import React from 'react';
 
-const userOutput = () => {
+const userOutput = (props) => {
   return (
     <div>
+    <p>Username: {props.username}</p>
     <p>There's a starman waiting in the sky
       He'd like to come and meet us
       But he thinks he'd blow our minds
