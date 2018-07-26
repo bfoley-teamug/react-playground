@@ -19,11 +19,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Starman</h1>
-        <UserInput changed={this.usernameChangeHandler} />
+        <UserInput changed={this.usernameChangeHandler} currentName={this.state.username} />
         <UserOutput username={this.state.username} />
-        <UserOutput username="Jerry Garcia" />
         <UserOutput username="David Bowie" />
         <UserOutput username="Bob Dylan" />
+        <UserOutput username="Other" />
       </div>
     );
   }
