@@ -5,7 +5,7 @@ import React from 'react';
 
 const userInput = (props) => {
   const inputStyle = {
-    border: '2px sold red'
+    border: '2px sold black'
   };
 
   return <input

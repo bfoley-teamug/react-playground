@@ -4,7 +4,7 @@ import './UserOutput.css';
 const userOutput = (props) => {
   return (
     <div className="UserOutput">
-      <p>Username: {props.username}</p>
+      <h3>Username: {props.username}</h3>
       <p>There's a starman waiting in the sky
         He'd like to come and meet us
         But he thinks he'd blow our minds
