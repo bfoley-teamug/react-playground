@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Starman</h1>
-        <UserInput />
+        <UserInput changed={this.usernameChangeHandler} />
         <UserOutput username={this.state.username} />
         <UserOutput username="Jerry Garcia" />
         <UserOutput username="David Bowie" />
